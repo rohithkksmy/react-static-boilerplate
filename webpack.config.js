@@ -84,6 +84,11 @@ const config = {
     }),
   ],
 
+  node: {
+    dns: 'mock',
+    net: 'mock',
+    tls: 'mock'
+  },
   // Options affecting the normal modules
   module: {
     loaders: [

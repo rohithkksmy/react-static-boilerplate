@@ -15,6 +15,17 @@ const del = require('del');
 const ejs = require('ejs');
 const webpack = require('webpack');
 
+// const cassandra = require('cassandra-driver');
+// const assert = require('assert');
+// const client = new cassandra.Client({ contactPoints: ['127.0.0.1'], keyspace: 'excelsior'}); 
+// const query = 'SELECT * FROM playlists';
+
+// client.execute(query, [], function(err, result) {
+//   assert.ifError(err);
+//   console.log("err----->",err);
+//   console.log("result----->",result.rows);
+// });
+
 // TODO: Update configuration settings
 const config = {
   title: 'React Static Boilerplate',        // Your website title
